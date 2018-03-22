@@ -1,0 +1,127 @@
+.page-a4-h{
+    width:1000px;
+    background-color:#fff;
+    -webkit-box-shadow: 2px 2px 2px;  
+    -moz-box-shadow: 2px 2px 2px;  
+    box-shadow: 2px 2px 2px;
+}
+
+	.array{
+		position:relative;
+		display:inline-block;
+		height:20px;
+		padding-right:4px;
+        padding-left:4px;
+		margin-left:10px;
+        margin-top:2px;
+        margin-bottom:2px;
+	}
+	.array:before{
+		content:'';
+		display:inline-block;
+		position:absolute;
+		left:-8px;
+		
+		border-left:8px solid transparent;
+		border-top:10px solid red;
+		border-bottom:10px solid red;
+	}
+	.array:after{
+		content:'';
+		display:inline-block;
+		position:absolute;
+		right:-8px;
+		
+		border-left:8px solid red;
+		border-top:10px solid transparent;
+		border-bottom:10px solid transparent;
+	}
+
+.flow-state-checking.array{
+    background-color:#2d8cf0;
+    color:#fff;
+}
+.flow-state-checking.array:before{
+    border-top-color:#2d8cf0;
+    border-bottom-color:#2d8cf0;
+}
+.flow-state-checking.array:after{
+    border-left-color:#2d8cf0;
+}
+
+.flow-state-igon.array{
+    background-color:#ff9900;
+    color:#fff;
+}
+.flow-state-igon.array:before{
+    border-top-color:#ff9900;
+    border-bottom-color:#ff9900;
+}
+.flow-state-igon.array:after{
+    border-left-color:#ff9900;
+}
+
+.flow-state-passed.array{
+    background-color:#19be6b;
+    color:#fff;
+}
+.flow-state-passed.array:before{
+    border-top-color:#19be6b;
+    border-bottom-color:#19be6b;
+}
+.flow-state-passed.array:after{
+    border-left-color:#19be6b;
+}
+
+.flow-state-rejected.array{
+    background-color:#ed3f14;
+    color:#fff;
+}
+.flow-state-rejected.array:before{
+    border-top-color:#ed3f14;
+    border-bottom-color:#ed3f14;
+}
+.flow-state-rejected.array:after{
+    border-left-color:#ed3f14;
+}
+
+.flow-state-translate.array{
+    background-color:#1c2438;
+    color:#fff;
+}
+.flow-state-translate.array:before{
+    border-top-color:#1c2438;
+    border-bottom-color:#1c2438;
+}
+.flow-state-translate.array:after{
+    border-left-color:#1c2438;
+}
+
+.flow-state-unchecked.array{
+    background-color:#dddee1;
+    color:#495060;
+}
+.flow-state-unchecked.array:before{
+    border-top-color:#dddee1;
+    border-bottom-color:#dddee1;
+}
+.flow-state-unchecked.array:after{
+    border-left-color:#dddee1;
+}
+
+.info{
+    background-color:#2d8cf0;
+    color:#fff;
+}
+.success{
+    background-color:#19be6b;
+    color:#fff;
+}
+.warning{
+    background-color:#ff9900;
+    color:#fff;
+}
+.error{
+    background-color:#ed3f14;
+    color:#fff;
+}

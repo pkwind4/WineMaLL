@@ -1,0 +1,103 @@
+/*表单需要css*/
+.layout{
+        margin:10px;
+        padding:20px 40px 20px 40px;
+        color:#1c2438;
+    }
+    .report-header{
+        text-align: center;
+        font-size: 1rem;
+        font-weight: bold;
+        padding-top:5px;
+        padding-bottom: 10px;
+    }
+    .caption{
+        font-size: 0.8rem;
+        font-weight: bold;
+    }
+    .padding{
+        padding:5px;
+    }
+    .row{
+        border-bottom:1px solid #1c2438;;
+        align-items: stretch;
+    }
+    .rowbox{
+        align-items: stretch;
+    }
+    .row-first{
+        border-top:1px solid #1c2438;;
+    }
+    .col{
+        padding:5px;
+        border-right:1px solid #1c2438;;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .col:first-child{
+        border-left:1px solid #1c2438;;
+    }
+    .col:last-child{
+        flex-grow:1;
+        border-right:1px solid #1c2438;;
+    }
+    .col1{
+        width:200px;
+    }
+    .col2{
+        width:140px;
+    }
+    .col3{
+        width:100px;
+    }
+    .col4{
+        width:200px;
+    }
+    .col5{
+        width:100px;
+    }
+    .col6{
+        width:180px;
+    }
+    .col2-5{
+        width:720px;
+    }
+    .col-full{
+        flex-grow: 1;
+    }
+    .full-width{
+        width:100%;
+    }
+    .input{
+        background-color: #e9eaec;
+    }
+    .item{
+        text-align: center;
+    }
+    .item-warning{
+        color:#ed3f14;
+        text-align:center;
+    } 
+    .bottom{
+        margin-bottom: 50px;
+    }
+    .btn
+    {
+        margin:20px;
+    }
+
+/*审批需要css*/
+    .col2-4{
+        width:540px;
+    }
+    .un-checked{
+        color:#bbbec4;
+    }
+    .col.col-approval{
+        flex-direction: row;
+        align-items: stretch;
+        justify-content: flex-start;
+        padding:0px;
+    }

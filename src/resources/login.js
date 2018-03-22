@@ -1,0 +1,25 @@
+let resource = {
+    companyOA:'集团OA',
+    companyOAWebHost:'http://10.1.7.147:8080',
+    crgdWeb:'公司网站',
+    crgdWebHost:'http://www.crgdpharm.com',
+    word1:'协同系统',
+    word2:'正在升级新版本',
+    login:'登录',
+    logining:'正在登录',
+    oldOAWebHost:'http://tw.crgdpharm.com',
+    oldOAWeb:'旧版协同登录',
+    userAccount:'账号',
+    userPassword:'密码',
+    verificationCode:'验证码',
+    userAccountPlaceholder:'请输入员工账号',
+    userPasswordPlaceHolder:'请输入登录密码',
+    userAccountMessage:'请输入员工账号或员工账号超过64位字符',
+    userPasswordMessage:'请输入员工密码或员工密码超过64位字符',
+    getVerificationCode:'获取微信验证码',
+    verificationCodeMessage:'请输入验证码',
+    verificationCodeWait:'60秒后重试',
+    verificationCodeSuccess:'已成功发送，请查看企业微信',
+    copyRight:'Copyright © 2017 CRGD. All Rights Reserved'
+};
+export default resource;

@@ -1,0 +1,27 @@
+--src  源文件
+  |
+  --components 自定义组件放置目录
+  |
+  --config 系统配置参数放置目录
+  |
+  --enums 枚举参数放置目录
+  |
+  --helpers 独立操作类放置目录
+  |
+  --images 图片放置目录
+  |
+  --libs 系统独立操作类放置目录
+  |
+  --resources 本地化资源放置目录
+  |
+  --stores 全局变量放置目录
+  |
+  --styles 样式放置目录
+  |
+  --template 系统模板放置目录
+  |
+  --viewDatas 视图组件内使用的数据放置目录
+  |
+  --viewModels 视图组件内表格组件相关数据放置目录
+  |
+  --views 视图组件放置目录
